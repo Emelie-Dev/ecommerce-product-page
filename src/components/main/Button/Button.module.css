@@ -1,0 +1,26 @@
+
+
+.button {
+
+    background: var(--orange);
+    border: none;
+    outline: none;
+    color: var(--pale-orange);
+    padding: 1.1rem 5rem;
+    border-radius: 10px;
+    font-family: boldFont;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 50px 2px var(--pale-orange);
+}
+
+
+
+.cart {
+
+    width: 1.3rem;
+    height: 1.3rem;
+    fill: none;
+    margin-right: 1rem;
+}

@@ -1,0 +1,15 @@
+
+.imageBox {
+
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.img {
+
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 10px;
+    margin-right: 2rem;
+}

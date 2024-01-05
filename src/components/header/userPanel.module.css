@@ -1,0 +1,23 @@
+
+
+.div {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.cart {
+
+    margin-right: 2.8rem;
+
+}
+
+.avatar {
+
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    
+}

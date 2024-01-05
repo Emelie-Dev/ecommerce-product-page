@@ -3,7 +3,9 @@ import styles from './Logo.module.css'
 
 const Logo = () => {
   return (
-   <h2 className={styles.logo}>sneakers</h2>
+
+   <img  src='src\assets\images\logo.svg' alt='Logo' />
+   
   )
 }
 

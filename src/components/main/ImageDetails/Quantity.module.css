@@ -1,0 +1,27 @@
+
+.quantity-div {
+
+    display: flex;
+    background: var(--light-grayish-blue);
+    align-items: center;
+    border-radius: 10px;
+    padding: 0;
+    margin-right: 1rem;
+}
+
+
+.img {
+
+    background: transparent;
+    margin: 1.35rem 1rem;
+    
+}
+
+.quantity {
+
+    color: var(--black);
+    font-family: boldFont;
+    margin: 0.5rem 1.7rem;
+ 
+  
+}

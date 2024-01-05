@@ -1,0 +1,27 @@
+
+
+.nav {
+
+    margin-left: 3rem;
+}
+
+
+.list {
+
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.items {
+
+    color: var(--dark-grayish-blue);
+    font-family: regularFont;
+    font-size: 0.95rem;
+    margin: 0 1rem;
+    padding: 2.7rem 0;
+    border: none;
+   
+}
