@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from './productImage.module.css'
 
-const ProductImage = () => {
+const ProductImage = ({src}) => {
 
   return (
-   
-    <img className={styles.img} src='src\assets\images\image-product-1.jpg' alt='Product-image 1'/>
-    
+  
+    <img className={styles.img} src={src} alt='Product-image 1'/>
+ 
   )
 }
 

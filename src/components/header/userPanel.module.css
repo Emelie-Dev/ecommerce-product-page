@@ -8,10 +8,28 @@
     margin-left: auto;
 }
 
-.cart {
+.cartBox {
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 2.8rem;
 
+}
+
+.cart {
+
+ width: 1.5rem;
+ height: 1.3rem;
+ fill: var(--dark-grayish-blue);
+ cursor: pointer;
+
+}
+
+.cart:hover {
+
+    fill: var(--black);
+    transition: fill 0.3s;
 }
 
 .avatar {
@@ -19,5 +37,11 @@
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
+    cursor: pointer;
     
+}
+
+.avatar:hover {
+
+    border: 2px solid var(--orange);
 }

@@ -6,21 +6,29 @@
     border: none;
     outline: none;
     color: var(--pale-orange);
-    padding: 1.1rem 5rem;
+    padding: 1.1rem 4.7rem;
     border-radius: 10px;
     font-family: boldFont;
     font-size: 1rem;
     display: flex;
     align-items: center;
-    box-shadow: 2px 2px 50px 2px var(--pale-orange);
+    box-shadow: 0px 12px 25px -12px rgba(255, 200, 0, 0.5);
+    cursor: pointer;
+    transition: opacity 0.3s;
 }
 
 
 
 .cart {
 
-    width: 1.3rem;
+    width: 1.5rem;
     height: 1.3rem;
-    fill: none;
-    margin-right: 1rem;
+    fill: white;
+    margin-right: 0.8rem;
+    transform: scale(0.85);
+}
+
+.button:hover {
+
+    opacity: 0.65;
 }

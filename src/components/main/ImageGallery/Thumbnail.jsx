@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Thumbnail.module.css'
 
-const Thumbnail = () => {
+const Thumbnail = ({currentImg, setCurrentImg}) => {
 
   const images = [
 
@@ -14,13 +14,21 @@ const Thumbnail = () => {
 
   return (
     <div className={styles.imageBox}>
-
+      
       {
 
-        images.map((image, index) => <img key={index} src={image} className={`${styles.img} `} alt={`Thumbnail ${index + 1}`} />)
-      }
+        images.map((image, index) => {   
+        
+       return (
+
+       <span key={index} className={`${styles.box} ${currentImg === (index + 1) && styles.currentBox}`}><img  src={image} onClick={() => setCurrentImg(index + 1)} className={`${styles.img} ${currentImg === (index + 1) && styles.currentImg}`} alt={`Thumbnail ${index + 1}`} /></span>
+       
+       )
+        })
+
+        }
       
-    </div>
+      </div>
   )
 }
 
