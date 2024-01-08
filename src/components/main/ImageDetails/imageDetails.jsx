@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './imageDetails.module.css'
 import Quantity from './Quantity'
 import Price from './Price'
 import Button from '../Button/Button'
 
 const ImageDetails = () => {
+
+  const [ itemCount, setItemCount ] = useState(0);
 
   return (
 
@@ -20,9 +22,9 @@ const ImageDetails = () => {
 
    <div className={styles['quantity-container']}>
 
-    <Quantity />
+    <Quantity  />
 
-    <Button text='Add to cart' cart={true}/>
+    <Button  text='Add to cart' type='cart' />
 
     </div>
 

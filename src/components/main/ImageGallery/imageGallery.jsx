@@ -19,7 +19,7 @@ const ThumbnailGallery = () => {
 
     <section className={styles.gallery}>
 
-        <ProductImage src={images[currentImg - 1]}/>
+        <ProductImage src={images[currentImg - 1]} currentImg={currentImg}/>
 
         <Thumbnail currentImg={currentImg} setCurrentImg={setCurrentImg} />
      

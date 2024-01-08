@@ -14,8 +14,10 @@
     align-items: center;
     justify-content: center;
     margin-right: 2.8rem;
+    position: relative;
 
 }
+
 
 .cart {
 
@@ -23,13 +25,40 @@
  height: 1.3rem;
  fill: var(--dark-grayish-blue);
  cursor: pointer;
+ transition: fill 0.3s;
+ 
+}
+
+.cart:hover  {
+
+    fill: var(--black);
+    
+}
+
+.cartActive {
+
+    fill: var(--black);
+}
+
+.cart-count {
+
+    position: absolute;
+    background: var(--orange);
+    color: white;
+    font-family: regularFont;
+    font-size: 0.8rem;
+    bottom: 50%;
+    left: 50%;
+    border-radius: 10px;
+    height: 1.5rem;
+    padding: 0.3rem;
+   text-align: center;
 
 }
 
-.cart:hover {
+.cart-count-hide {
 
-    fill: var(--black);
-    transition: fill 0.3s;
+    display: none;
 }
 
 .avatar {
@@ -44,4 +73,10 @@
 .avatar:hover {
 
     border: 2px solid var(--orange);
+}
+
+.cont {
+
+    background: red;
+   
 }

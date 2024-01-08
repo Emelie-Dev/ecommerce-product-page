@@ -7,18 +7,39 @@
     border-radius: 10px;
     padding: 0;
     margin-right: 1rem;
+    user-select: none;
 }
 
+.icon-box {
 
-.img {
-
-    background: transparent;
-    margin: 1.35rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        cursor: pointer;
     cursor: pointer;
-    transition: opacity 0.3s;
 }
 
-.img:hover {
+.minus {
+
+    width: 0.75rem;
+    height: 0.25rem;
+    margin: 1.35rem 1rem;
+    transition: opacity 0.3s;
+    fill: var(--orange);
+}
+
+
+.plus {
+
+    width: 0.75rem;
+    height: 0.75rem;
+    margin: 1.35rem 1rem;
+    transition: opacity 0.3s;
+    fill: var(--orange);
+}
+
+
+.icon-box:hover {
 
     opacity: 0.6;
 }
@@ -26,8 +47,10 @@
 .quantity {
 
     color: var(--black);
-    font-family: boldFont;
     margin: 0.5rem 1.7rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.05rem;
+    font-weight: 900;
  
   
 }

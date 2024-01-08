@@ -1,1 +1,16 @@
 
+.logo-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.logo {
+
+    width: 8.625rem;
+    height: 1.25rem;
+    transform: translateY(-2px);
+}
