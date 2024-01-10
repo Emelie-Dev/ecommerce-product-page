@@ -1,9 +1,12 @@
 import React, { useContext } from 'react'
 import styles from './productImage.module.css'
-import { LightboxContext } from '../../Contexts'
+import { ImageNavContext, LightboxContext } from '../../Contexts'
+import ImageNavArrows from './ImageNavArrows';
 
 
-const ProductImage = ({src, currentImg}) => {
+const ProductImage = ({src}) => {
+
+  const [ currentImg, setCurrentImg ] = useContext(ImageNavContext);
 
   const [ showLightbox, setShowLightbox ] = useContext(LightboxContext);
 
@@ -14,8 +17,14 @@ const ProductImage = ({src, currentImg}) => {
   }
 
   return (
-  
+    
+    <figure className={styles.figure}>
+    
     <img className={styles.img} src={src} alt={`Product-image ${currentImg}`} onClick={clickHandler} />
+
+    <ImageNavArrows />
+
+    </figure>
  
   )
 }

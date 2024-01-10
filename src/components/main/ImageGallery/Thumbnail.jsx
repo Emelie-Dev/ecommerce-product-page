@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import styles from './Thumbnail.module.css'
+import { ImageNavContext } from '../../Contexts';
 
 
 const images = [
@@ -12,8 +13,10 @@ const images = [
  ]
 
  
-const Thumbnail = ({currentImg, setCurrentImg}) => {
+const Thumbnail = () => {
 
+  
+  const [ currentImg, setCurrentImg ] = useContext(ImageNavContext);
 
   return (
     <div className={styles.imageBox}>

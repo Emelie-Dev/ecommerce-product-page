@@ -10,12 +10,12 @@
     user-select: none;
 }
 
-.icon-box {
+.minus-icon-box, .plus-icon-box {
 
     display: flex;
     align-items: center;
     justify-content: center;
-        cursor: pointer;
+    cursor: pointer;
     cursor: pointer;
 }
 
@@ -53,4 +53,44 @@
     font-weight: 900;
  
   
+}
+
+
+@media screen and (max-width: 849px) and (min-width: 800px) {
+
+   
+.minus, .plus {
+
+
+    margin: 1.15rem 1rem;
+   
+}
+
+}
+
+
+
+/* For Mobile  */
+
+
+@media screen and (max-width: 799px) {
+
+    .quantity-div {
+
+       width: 90%;
+       justify-content: center;
+       margin-right: 0;
+
+    }
+
+    .minus-icon-box {
+
+      margin-right: auto;
+    }
+
+    .plus-icon-box {
+
+        margin-left: auto;
+
+    }
 }

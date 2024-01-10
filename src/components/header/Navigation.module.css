@@ -34,3 +34,51 @@
     
     border-bottom: 4px solid rgb(255, 140, 0);
 }
+
+/* Media Queries */
+   
+@media screen and (max-width: 999px) and (min-width: 900px) {
+
+    .nav {
+
+    margin-left: 2.5rem;
+    margin-right: 5rem;
+    
+    }
+}
+
+
+
+@media screen and (max-width: 899px) and (min-width: 850px) {
+
+    .nav {
+
+    margin-left: 2rem;
+    margin-right: 1rem;
+
+    } 
+}
+
+
+@media screen and (max-width: 849px) and (min-width: 800px) {
+
+    .nav {
+
+    margin-left: 1.5rem;
+    margin-right: 0rem;
+
+    } 
+}
+
+
+/* For Mobile */
+
+@media screen and (max-width: 799px) {
+
+    .nav {
+
+        display: none;
+
+    }
+    
+}

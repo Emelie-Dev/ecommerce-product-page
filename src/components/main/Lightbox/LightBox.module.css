@@ -6,12 +6,13 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,0.8);
     z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
     animation: scaleAnimation 0.3s ease-in-out;
+    overflow: auto;
   
 }
 
@@ -58,4 +59,35 @@
         transform: scale(1);
     }
     
+}
+
+
+/* Media Queries */
+
+@media screen and (max-height:599px) {
+
+    
+.light-box {
+
+    align-items: flex-start;
+
+ }
+
+ .icon-box {
+
+    margin-top: 40px;
+ }
+    
+}
+
+/* For Mobile  */
+
+
+@media screen and (max-width: 799px) {
+
+    .light-box  {
+
+        display: none;
+    }
+
 }

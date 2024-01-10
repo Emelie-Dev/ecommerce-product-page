@@ -7,5 +7,103 @@
     margin: 0rem 4.5rem;
     margin-right: 5rem;
     border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+   
     
 }
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1199px) and (min-width: 1100px) {
+
+.header {
+
+    margin-right: 4rem;
+  
+}
+    
+}
+
+
+@media screen and (max-width: 1099px) and (min-width: 1000px) {
+
+    .header {
+    
+        margin-right: 3rem;
+        
+      
+    }
+        
+    }
+   
+
+    @media screen and (max-width: 999px) and (min-width: 900px) {
+
+        .header {
+    
+           width: 88%;
+            
+          
+        }
+
+    }
+   
+    
+    @media screen and (max-width: 899px) and (min-width: 850px) {
+
+        .header {
+    
+           width: 87%;
+           margin-left: 3rem;
+            
+          
+        }
+
+    }
+
+ @media screen and (max-width: 849px) and (min-width: 800px) {
+
+        .header {
+    
+           width: 88.5%;
+           margin-left: 2rem;
+            
+          
+        }
+
+    }
+
+/* For Mobile  */
+
+
+ @media screen and (max-width: 799px) {
+
+    .menu-box {
+
+        display: flex;
+        margin-right: 2rem;
+
+    }
+
+.menu {
+
+    width: 1rem;
+    height: 0.9375rem;
+   transform: scale(1.25);
+   cursor: pointer;
+
+}
+
+    .header {
+
+        padding: 1.5rem 1rem;
+        border: none;
+        margin: 0rem 3rem;
+       
+
+    }
+ }
+   
+   
+
+   

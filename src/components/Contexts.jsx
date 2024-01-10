@@ -7,3 +7,7 @@ export const LightboxContext = React.createContext();
 export const CartItemContext = React.createContext();
 
 export const ItemCountContext = React.createContext();
+
+export const SideNavContext = React.createContext();
+
+export const ImageNavContext = React.createContext();

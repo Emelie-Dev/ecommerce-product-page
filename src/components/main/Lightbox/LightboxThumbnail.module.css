@@ -49,3 +49,15 @@
 opacity: 0.5;
     
 }
+
+
+/* Media Queries */
+
+@media screen and (max-height:599px) {
+
+    .section {
+
+        margin-bottom: 40px;
+    }
+
+}

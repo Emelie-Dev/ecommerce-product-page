@@ -1,9 +1,18 @@
 
+
+.price {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.8rem;
+   
+
+}
+
 .priceTag {
 
     display: flex;
     align-items: center;
-    margin-top: 1.8rem;
     margin-bottom: 1rem;
 
 }
@@ -38,4 +47,87 @@
     font-family: boldFont;
     color: var(--dark-grayish-blue);
     opacity: 0.5;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 999px) and (min-width: 900px) {
+
+
+ .priceTag {
+
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 899px) and (min-width: 850px) {
+
+
+    .priceTag {
+   
+           display: flex;
+           align-items: center;
+           margin-top: 1.3rem;
+   
+   
+       }
+   
+.newPrice {
+
+    font-size: 1.5rem;
+
+}
+   }
+
+   
+@media screen and (max-width: 849px) and (min-width: 800px) {
+
+
+    .priceTag {
+   
+           display: flex;
+           align-items: center;
+           margin-top: 1.3rem;
+   
+   
+       }
+   
+.newPrice {
+
+    font-size: 1.5rem;
+
+}
+   }
+
+   
+
+/* For Mobile  */
+
+
+@media screen and (max-width: 799px) {
+
+    .price {
+
+        flex-direction: row;
+        align-items: center;
+        margin-top: 2rem;
+
+    }
+
+    .priceTag {
+
+        margin-bottom: 0;
+    }
+
+    .oldPrice {
+
+        margin-left: auto;
+
+    }
 }

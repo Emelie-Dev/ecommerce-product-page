@@ -53,6 +53,7 @@
     height: 1.5rem;
     padding: 0.3rem;
    text-align: center;
+   user-select: none;
 
 }
 
@@ -75,8 +76,83 @@
     border: 2px solid var(--orange);
 }
 
-.cont {
-
-    background: red;
+/* Media Queries */
    
+@media screen and (max-width: 999px) and (min-width: 900px) {
+
+    
+.cartBox {
+
+
+    margin-right: 2.4rem;
+
+}
+
+}
+
+   
+@media screen and (max-width: 899px) and (min-width: 850px) {
+
+    
+    .cartBox {
+    
+    
+        margin-right: 2.4rem;
+    
+    }
+
+    .div {
+
+   
+        margin-left: 2rem;
+       
+    }
+    
+    }
+
+    
+@media screen and (max-width: 849px) and (min-width: 800px) {
+
+    
+    .cartBox {
+    
+    
+        margin-right: 2rem;
+    
+    }
+
+    .div {
+
+   
+        margin-left: 2rem;
+       
+    }
+    
+    }
+
+
+/* For Mobile  */
+
+
+@media screen and (max-width: 799px) {
+
+    
+.avatar {
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
+
+
+
+.cartBox {
+
+
+    margin-right: 2rem;
+
+
+}
+
+
 }

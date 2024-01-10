@@ -3,7 +3,7 @@ import './App.css'
 import Header from './components/header/Header'
 import Main from './components/main/Main'
 import styles from './App.module.css'
-import { CartContext, CartItemContext, ItemCountContext  } from './components/Contexts';
+import { CartContext, CartItemContext, ItemCountContext, SideNavContext  } from './components/Contexts';
 
 
 function App() {
@@ -14,6 +14,8 @@ const [ cartItemCount, setCartItemCount ] = useState(0);
 
 const [ itemCount, setItemCount ] = useState(0);
 
+const [ showSidenav, setShowSideNav ] = useState(false);
+
   return (
 
    <div className={showCart ? styles.div : ''}>
@@ -23,10 +25,13 @@ const [ itemCount, setItemCount ] = useState(0);
 
       <ItemCountContext.Provider value={[itemCount, setItemCount]}>
 
+    <SideNavContext.Provider value={[showSidenav, setShowSideNav]}>
+
     <Header />
 
     <Main />
 
+    </SideNavContext.Provider>
     </ItemCountContext.Provider>
  </CartItemContext.Provider>
  </CartContext.Provider>

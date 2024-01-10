@@ -4,7 +4,8 @@ import styles from './Main.module.css'
 import ImageDetails from './ImageDetails/imageDetails'
 import Cart from './Cart/Cart'
 import Lightbox from './Lightbox/Lightbox'
-import { LightboxContext, CartContext } from '../Contexts'
+import { LightboxContext, CartContext, SideNavContext } from '../Contexts'
+import SideNav from './SideNav/SideNav'
 
 
 
@@ -13,6 +14,8 @@ const Main = () => {
 const [ showLightbox, setShowLightbox ] = useState({value: false, src:'', index: undefined});
 
 const [ showCart, setShowCart ] = useContext(CartContext);
+
+const [ showSideNav, setShowSideNav ] = useContext(SideNavContext);
 
 
   return (
@@ -31,9 +34,9 @@ const [ showCart, setShowCart ] = useContext(CartContext);
 
     {showCart && <Cart />}
 
-   
-
     {showLightbox.value && <Lightbox />}
+
+    { showSideNav &&  <SideNav /> }
 
     </main>
 

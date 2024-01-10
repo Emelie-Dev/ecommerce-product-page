@@ -3,6 +3,7 @@ import Logo from './Logo'
 import styles from  './Header.module.css';
 import Navigation from './Navigation';
 import UserPanel from './userPanel';
+import Menu from './Menu';
 
 
 const Header = () => {
@@ -10,6 +11,8 @@ const Header = () => {
     
     <header className={styles.header}>
 
+      <Menu />
+      
       <Logo />
 
       <Navigation />
