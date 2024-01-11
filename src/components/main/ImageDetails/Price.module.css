@@ -110,7 +110,7 @@
 /* For Mobile  */
 
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 799px)  {
 
     .price {
 
@@ -130,4 +130,30 @@
         margin-left: auto;
 
     }
+}
+
+
+@media screen and (max-width: 499px)  {
+
+
+    .newPrice {
+
+        font-size: 1.5rem;
+
+    }
+    
+
+}
+
+
+@media screen and (max-width: 319px)  {
+
+
+    .newPrice {
+
+        font-size: 1.35rem;
+
+    }
+    
+
 }

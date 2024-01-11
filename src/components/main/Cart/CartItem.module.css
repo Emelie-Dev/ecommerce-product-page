@@ -86,3 +86,14 @@ margin-bottom: 1.6rem;
     margin-left: 0.5rem;
     font-size: 1.05rem;
 }
+
+
+/* For Mobile  */
+
+@media screen and (max-width: 399px) {
+
+    .img {
+
+        align-self: flex-start;
+    }
+}

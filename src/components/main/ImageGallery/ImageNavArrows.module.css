@@ -61,7 +61,7 @@
 /* For Mobile  */
 
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 799px)   {
 
     .container {
 
@@ -69,3 +69,20 @@
 
     }
 }
+
+
+
+@media screen and (max-width: 499px)   {
+
+   
+
+.prev-arrow-box, .next-arrow-box {
+
+    padding: 0.8rem;
+    width: 2.7rem;
+    height: 2.7rem;
+  
+
+}
+}
+

@@ -25,10 +25,10 @@
     padding-bottom: 1.5rem;
     display: flex;
     flex-direction: column;
-    height: 15.8rem;
     cursor: auto;
     animation: flipIn 0.4s ease-in-out;
-   
+    height: auto;
+    overflow: auto;
 }
 
 
@@ -56,6 +56,8 @@
   color: var(--dark-grayish-blue);
   padding: 5rem 6rem;
   font-size: 1.1rem;
+  text-align: center;
+ 
 
 }
 
@@ -140,6 +142,40 @@
 
     left: 48%;
   
+  }
+}
+
+
+@media screen and (max-width: 799px)  {
+
+  
+  .section {
+
+    left: 5%;
+    width: 90%;
+  
+  }
+}
+
+
+
+@media screen and (max-width: 399px)  {
+
+  .empty-cart {
+
+    padding: 5rem;
+    padding-top: 4.5rem;
+  }
+}
+
+
+@media screen and (max-width: 320px)  {
+
+  .section {
+    
+    left: 1%;
+    width: 98%;
+    
   }
 }
 

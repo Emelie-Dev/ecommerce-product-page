@@ -73,11 +73,128 @@
 /* For Mobile  */
 
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 799px) and (min-width: 700px)   {
 
     .quantity-div {
 
        width: 90%;
+       justify-content: center;
+       margin-right: 0;
+
+    }
+
+    .minus-icon-box {
+
+      margin-right: auto;
+    }
+
+    .plus-icon-box {
+
+        margin-left: auto;
+
+    }
+}
+
+
+@media screen and (max-width: 699px) and (min-width: 600px)   {
+
+    .quantity-div {
+
+       width: 95%;
+       justify-content: center;
+       margin-right: 0;
+
+    }
+
+    .minus-icon-box {
+
+      margin-right: auto;
+    }
+
+    .plus-icon-box {
+
+        margin-left: auto;
+
+    }
+}
+
+
+
+@media screen and (max-width: 599px) and (min-width: 500px)   {
+
+    .quantity-div {
+
+       width: 100%;
+       justify-content: center;
+       margin-right: 0;
+
+    }
+
+    .minus-icon-box {
+
+      margin-right: auto;
+    }
+
+    .plus-icon-box {
+
+        margin-left: auto;
+
+    }
+}
+
+
+
+@media screen and (max-width: 499px) and (min-width: 400px)   {
+
+    .quantity-div {
+
+       width: 100%;
+       justify-content: center;
+       margin-right: 0;
+
+    }
+
+    .minus-icon-box {
+
+      margin-right: auto;
+    }
+
+    .plus-icon-box {
+
+        margin-left: auto;
+
+    }
+}
+
+
+@media screen and (max-width: 399px) and (min-width: 320px)   {
+
+    .quantity-div {
+
+       width: 100%;
+       justify-content: center;
+       margin-right: 0;
+
+    }
+
+    .minus-icon-box {
+
+      margin-right: auto;
+    }
+
+    .plus-icon-box {
+
+        margin-left: auto;
+
+    }
+}
+
+
+@media screen and (max-width: 319px) {
+
+    .quantity-div {
+
+       width: 100%;
        justify-content: center;
        margin-right: 0;
 

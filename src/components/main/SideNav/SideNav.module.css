@@ -20,6 +20,8 @@
     flex-direction: column;
     width: 40%;
     animation: slideAnim 0.3s ease-in-out;
+    overflow: auto;
+    padding-bottom: 1rem;
     
 }
 
@@ -102,3 +104,60 @@
     }
 
 }
+
+
+@media screen and (max-width: 599px) and (min-width: 400px)  {
+                                                                                       
+  
+.section {
+
+    width: 50%;
+    
+}
+
+@keyframes slideAnim {
+
+    from {
+
+        width: 0;
+
+    } to {
+
+        width: 50%;
+    }
+    
+}
+
+
+
+}
+
+
+
+@media screen and (max-width: 399px) {
+                                                                                       
+  
+    .section {
+    
+        width: 65%;
+        
+    }
+
+    
+@keyframes slideAnim {
+
+    from {
+
+        width: 0;
+
+    } to {
+
+        width: 65%;
+    }
+    
+}
+
+
+    
+    }
+

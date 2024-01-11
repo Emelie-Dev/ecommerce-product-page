@@ -60,15 +60,15 @@
 
 /* For Mobile */
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 799px)   {
 
    .main {
 
     flex-direction: column;
     margin: 0rem;
-    width: fit-content;
+    /* width: fit-content; */
 
-
+  
    }
     
 }

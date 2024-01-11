@@ -81,15 +81,89 @@
 /* For Mobile  */
 
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 799px) and (min-width: 700px) {
 
     .img {
 
-        width: 45rem;
-        height: 35rem;
+        width: 43.7rem;
+        height: 38rem;
         border-radius: 0;
         pointer-events: none;
         
+    }
+
+   
+}
+
+
+@media screen and (max-width: 699px) and (min-width: 600px) {
+
+    .img {
+
+        width: 100vw;
+        height: 33rem;
+        border-radius: 0;
+        pointer-events: none;
+        
+    }
+
+   
+}
+
+@media screen and (max-width: 599px) and (min-width: 500px) {
+
+    .img {
+
+        width: 100vw;
+        height: 28rem;
+        border-radius: 0;
+        pointer-events: none;
+        
+    }
+
+   
+}
+
+
+@media screen and (max-width: 499px) and (min-width: 400px) {
+
+    .img {
+
+        width: 100vw;
+        height: 24rem;
+        border-radius: 0;
+        pointer-events: none;
+
+    }
+
+   
+}
+
+
+@media screen and (max-width: 399px) and (min-width: 320px) {
+
+    .img {
+
+        width: 100vw;
+        height: 22rem;
+        border-radius: 0;
+        pointer-events: none;
+
+    }
+
+   
+}
+
+
+@media screen and (max-width: 319px)  {
+
+    .img {
+
+        width: 100vw;
+        height: 21rem;
+        border-radius: 0;
+        pointer-events: none;
+
     }
 
    
