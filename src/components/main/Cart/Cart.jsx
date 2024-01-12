@@ -33,6 +33,7 @@ const [ cartItemCount, setCartItemCount ] = useContext(CartItemContext);
 
    </section>
 
+    
    </div>
 
   )
