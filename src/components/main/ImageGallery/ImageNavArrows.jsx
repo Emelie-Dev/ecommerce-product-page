@@ -1,14 +1,17 @@
 import React, { useContext } from 'react'
 import styles from './ImageNavArrows.module.css'
-import { ImageNavContext } from '../../Contexts'
+import { ImageNavContext, LoadImageContext } from '../../Contexts'
 
 const ImageNavArrows = () => {
 
   const [ currentImg, setCurrentImg ] = useContext(ImageNavContext);
 
+  const [ loading, setLoading ] = useContext(LoadImageContext);
+
 
   const prevClickhandler = () => {
 
+    setLoading(true);
     setCurrentImg(prevImg => {
 
         return prevImg === 1 ? 4 : prevImg - 1;
@@ -19,6 +22,7 @@ const ImageNavArrows = () => {
 
    const nextClickhandler = () => {
 
+    setLoading(true);
    setCurrentImg(nextImg => {
     
     return nextImg === 4 ? 1 : nextImg + 1;

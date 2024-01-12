@@ -1,13 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Thumbnail from './Thumbnail'
 import ProductImage from './productImage'
 import styles from './imageGallery.module.css'
-import { ImageNavContext } from '../../Contexts'
+import { ImageNavContext, LoadImageContext } from '../../Contexts'
 
 const ThumbnailGallery = () => {
 
   const [ currentImg, setCurrentImg ] = useState(1);
 
+  const [ loading, setLoading ] = useState(true);
 
   const images = [
 
@@ -18,16 +19,21 @@ const ThumbnailGallery = () => {
 
   ]
 
+ 
+
   return (
 
     <section className={styles.gallery}>
 
       <ImageNavContext.Provider value={[currentImg, setCurrentImg]}>
 
+      <LoadImageContext.Provider value={[loading, setLoading]}>
+
         <ProductImage src={images[currentImg - 1]} />
 
-        <Thumbnail />
-     
+        <Thumbnail  />
+
+        </LoadImageContext.Provider>
         </ImageNavContext.Provider>
 
     </section>

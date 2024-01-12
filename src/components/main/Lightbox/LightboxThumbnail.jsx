@@ -16,9 +16,22 @@ const images = [
 
 
 
-const LightboxThumbnail = () => {
+const LightboxThumbnail = ({loading, setLoading}) => {
 
   const [ showLightbox, setShowLightbox ] = useContext(LightboxContext);
+
+  const clickHandler = (e, index) => {
+
+    if((index + 1) === showLightbox.index) {
+
+      return;
+
+    }
+    
+    setLoading(true);
+    setShowLightbox({value: true, src:`${lightboxImages[index]}`, index: index + 1});
+    
+  }
 
 
    return (
@@ -31,8 +44,8 @@ const LightboxThumbnail = () => {
       
        return (
         
-        <span key={index} className={`${styles.box} ${showLightbox.index === (index + 1) ? styles['current-box'] : ''}`}><img src={image} className={`${styles.img} ${showLightbox.index === (index + 1) ? styles['current-img']: ''}`} alt={`Thumbnail ${index + 1}`} onClick={() => setShowLightbox({value: true, src:`${lightboxImages[index]}`, index: index + 1})
-      }/></span>
+          <span key={index} className={`${styles.box} ${showLightbox.index === (index + 1) ? styles['current-box'] : ''}`}><img src={image} className={`${styles.img} ${showLightbox.index === (index + 1) ? styles['current-img']: ''}`} alt={`Thumbnail ${index + 1}`} onClick={(e) => clickHandler(e, index)}
+      /></span>
 
       )})
    

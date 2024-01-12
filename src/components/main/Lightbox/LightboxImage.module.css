@@ -70,3 +70,25 @@
     stroke: var(--orange)
     
 }
+
+
+.hide {
+
+    visibility: hidden;
+
+}
+
+.show {
+    animation: fadeAnimation .5s ease-in-out;
+}
+
+@keyframes fadeAnimation {
+
+    from {
+        opacity: 0;
+    } to {
+
+        opacity: 1;
+    }
+    
+}

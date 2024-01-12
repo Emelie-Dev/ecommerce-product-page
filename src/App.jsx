@@ -4,6 +4,7 @@ import Header from './components/header/Header'
 import Main from './components/main/Main'
 import styles from './App.module.css'
 import { CartContext, CartItemContext, ItemCountContext, SideNavContext  } from './components/Contexts';
+import Animation from './components/main/Animation/Animation'
 
 
 function App() {
@@ -36,6 +37,9 @@ const [ showSidenav, setShowSideNav ] = useState(false);
  </CartItemContext.Provider>
  </CartContext.Provider>
     </div>
+
+
+
   )
 }
 

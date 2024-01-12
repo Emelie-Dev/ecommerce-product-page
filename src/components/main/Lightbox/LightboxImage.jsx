@@ -1,8 +1,9 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import styles from './LightboxImage.module.css'
 import { LightboxContext } from '../../Contexts'
+import Animation from '../Animation/Animation'
 
-const LightboxImage = ({src, index}) => {
+const LightboxImage = ({src, index, loading, setLoading}) => {
 
   const [ showLightbox, setShowLightbox ] = useContext(LightboxContext);
 
@@ -19,6 +20,7 @@ const LightboxImage = ({src, index}) => {
 
     index = index === 1 ? 5 : index;
     
+    setLoading(true);
     setShowLightbox({value: true, src: images[index - 2], index: index - 1})
 
    }
@@ -27,16 +29,18 @@ const LightboxImage = ({src, index}) => {
 
     index = index === 4 ? 0 : index;
     
+    setLoading(true);
     setShowLightbox({value: true, src: images[index], index: index + 1})
 
    }
 
+   
   
   return (
 
     <figure className={styles.figure}>
 
-    <img src={src} alt={`Product-image ${index}`} className={styles.img} />
+    <img src={src} alt={`Product-image ${index}`} className={`${styles.img} ${loading ? styles.hide : styles.show}`} onLoad={() => setLoading(false)}/>
     
     <figcaption >
 
@@ -50,6 +54,8 @@ const LightboxImage = ({src, index}) => {
       </span>
 
     </figcaption>
+
+     { loading &&  <Animation /> }
 
   </figure>
 

@@ -11,3 +11,5 @@ export const ItemCountContext = React.createContext();
 export const SideNavContext = React.createContext();
 
 export const ImageNavContext = React.createContext();
+
+export const LoadImageContext = React.createContext();
