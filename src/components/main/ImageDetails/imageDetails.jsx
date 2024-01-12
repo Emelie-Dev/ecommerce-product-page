@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from './imageDetails.module.css'
+import styles from './ImageDetails.module.css'
 import Quantity from './Quantity'
 import Price from './Price'
 import Button from '../Button/Button'

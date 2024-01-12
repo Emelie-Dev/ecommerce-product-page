@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Thumbnail from './Thumbnail'
-import ProductImage from './productImage'
-import styles from './imageGallery.module.css'
+import ProductImage from './ProductImage'
+import styles from './ImageGallery.module.css'
 import { ImageNavContext, LoadImageContext } from '../../Contexts'
 
 const ThumbnailGallery = () => {

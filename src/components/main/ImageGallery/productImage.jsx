@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
-import styles from './productImage.module.css'
+import styles from './ProductImage.module.css'
 import { ImageNavContext, LightboxContext, LoadImageContext } from '../../Contexts'
 import ImageNavArrows from './ImageNavArrows';
 import Animation from '../Animation/Animation';
