@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from './Logo'
 import styles from  './Header.module.css';
 import Navigation from './Navigation';
-import UserPanel from './userPanel';
+import UserPanel from './UserPanel';
 import Menu from './Menu';
 
 
