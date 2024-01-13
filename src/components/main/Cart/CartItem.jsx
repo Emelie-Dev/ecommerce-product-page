@@ -12,7 +12,7 @@ const [ cartItemCount, setCartItemCount ] = useContext(CartItemContext);
 
     <figure className={styles.figure}>
 
-    <img className={styles.img} src='src\assets\images\image-product-1-thumbnail.jpg' />
+    <img className={styles.img} src='./assets/images/image-product-1-thumbnail.jpg' />
 
     <figcaption className={styles.caption}>
 

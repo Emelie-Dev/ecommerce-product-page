@@ -23,7 +23,7 @@ const [ cartItemCount, setCartItemCount ] = useContext(CartItemContext);
 
   </span>
    
-      <img className={styles.avatar} src='./src/assets/images/image-avatar.png' alt='Avatar'/>
+      <img className={styles.avatar} src='./assets/images/image-avatar.png' alt='Avatar'/>
 
     </div>
 
