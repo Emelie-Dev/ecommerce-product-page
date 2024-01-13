@@ -18,6 +18,10 @@
 
 }
 
+.cartBox:hover .cart {
+
+    fill: var(--black);
+}
 
 .cart {
 
@@ -29,11 +33,6 @@
  
 }
 
-.cart:hover  {
-
-    fill: var(--black);
-    
-}
 
 .cartActive {
 
@@ -54,6 +53,7 @@
     padding: 0.3rem;
    text-align: center;
    user-select: none;
+   cursor: pointer;
 
 }
 
