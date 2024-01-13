@@ -27,52 +27,52 @@
     
 @font-face {
     font-family: blackFont;
-    src: url('./assets/Fonts/static/KumbhSans-Black.ttf');
+    src: url('./Fonts/static/KumbhSans-Black.ttf');
 }
 
 @font-face {
     font-family: boldFont;
-    src: url('./assets/Fonts/static/KumbhSans-Bold.ttf');
+    src: url('./Fonts/static/KumbhSans-Bold.ttf');
 }
 
 @font-face {
     font-family: extraBoldFont;
-    src: url('./assets/Fonts/static/KumbhSans-ExtraBold.ttf');
+    src: url('./Fonts/static/KumbhSans-ExtraBold.ttf');
 }
 
 @font-face {
     font-family: extraLightFont;
-    src: url('./assets/Fonts/static/KumbhSans-ExtraLight.ttf');
+    src: url('./Fonts/static/KumbhSans-ExtraLight.ttf');
 }
 
 @font-face {
     font-family: lightFont;
-    src: url('./assets/Fonts/static/KumbhSans-Light.ttf');
+    src: url('./Fonts/static/KumbhSans-Light.ttf');
 }
 
 @font-face {
     font-family: mediumFont;
-    src: url('./assets/Fonts/static/KumbhSans-Medium.ttf');
+    src: url('./Fonts/static/KumbhSans-Medium.ttf');
 }
 
 @font-face {
     font-family: regularFont;
-    src: url('./assets/Fonts/static/KumbhSans-Regular.ttf');
+    src: url('./Fonts/static/KumbhSans-Regular.ttf');
 }
 
 @font-face {
     font-family: semiBoldFont;
-    src: url('./assets/Fonts/static/KumbhSans-SemiBold.ttf');
+    src: url('./Fonts/static/KumbhSans-SemiBold.ttf');
 }
 
 @font-face {
     font-family: thinFont;
-    src: url('./assets/Fonts/static/KumbhSans-Thin.ttf');
+    src: url('./Fonts/static/KumbhSans-Thin.ttf');
 }
 
 @font-face {
     font-family: variableFont;
-    src: url('./assets/Fonts/static/KumbhSans-VariableFont_YOPQ,wght.ttf');
+    src: url('./Fonts/static/KumbhSans-VariableFont_YOPQ,wght.ttf');
 }
 
 
