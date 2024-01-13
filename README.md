@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Emelie-Dev/ecommerce-product-page
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://godfather-ecommerce-product-page.netlify.app
 
 ## My process
 
